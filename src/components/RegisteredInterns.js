@@ -6,7 +6,7 @@ function RegisteredInterns() {
         getNotes()
     }, [notes])
     let getNotes = async ()=>{
-        let response = await  fetch('http://127.0.0.1:8000/interns',{
+        let response = await  fetch('http://16.170.240.194:8000/interns',{
             method:'GET',
             headers:{
                 'Content-Type':'application/json',
@@ -18,7 +18,7 @@ function RegisteredInterns() {
     }
   return (
     <div className="notes-list">
-         <h1>Registered Notes</h1>
+         <h1>Registered Interns</h1>
     {notes.map((note, index) => (
        
         <div className="notes-list-item">
