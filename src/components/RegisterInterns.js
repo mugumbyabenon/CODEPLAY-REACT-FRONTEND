@@ -52,7 +52,7 @@ function Register() {
     <h3>Start Date <span> </span>
     <input name='start_date' type='date' value={formData.start_date}
         onChange={handleInputChange}></input></h3>
-    <h3>End Date <span> </span>
+    <h3>End Datess <span> </span>
     <input name='end_date' type='date' value={formData.end_date}
         onChange={handleInputChange}></input></h3>
     <input type='submit' />
