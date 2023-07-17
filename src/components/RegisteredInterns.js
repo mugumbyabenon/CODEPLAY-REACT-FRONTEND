@@ -6,7 +6,7 @@ function RegisteredInterns() {
         getNotes()
     }, [notes])
     let getNotes = async ()=>{
-        let response = await  fetch('http://172.31.46.72:8000/interns',{
+        let response = await  fetch('http://127.0.0.1:8000/interns',{
             method:'GET',
             headers:{
                 'Content-Type':'application/json',
