@@ -23,7 +23,7 @@ function Register() {
         event.preventDefault();
     
         // Call your API with the form datahttp://16.170.240.194:8000
-      let response =  await fetch(`http://172.31.46.72:8000/interns`,{
+      let response =  await fetch(`http://127.0.0.1:8000/interns`,{
             method:'POST',
             headers:{
                 'Content-Type':'application/json'
